@@ -93,7 +93,7 @@ NMSE_ang_sic = zeros(numel(T_set), 1);
 
 %% Simulation Runs
 for sim = 1:Nsim
-    %% Mento Carlo Samples
+    %% Monte Carlo Samples
     % generate the locations of UEs and APs
     d = generate_cell_user(r_max, r_min, layer, Kc, fig_en);
     % path loss
